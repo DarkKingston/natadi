@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Natadi</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<div id="wrap" class="wrapper">
+        <div class="toptop">
+            <a href="#wrap">
+                <div class="arrow-top"></div>
+            </a>
+        </div>
+		<header id="header" class="header__wrapper header-color theme">
+
+			<div class="header__social header__social-other">
+				<div class="header__social__item">
+					<a href="" class="header__social__item__link header_facebook">facebook</a>
+				</div>
+				<div class="header__social__item">
+					<a href="" class="header__social__item__link header_inst">instagram</a>
+				</div>
+			</div>
+
+            
+
+			<div class="header theme theme-head">
+				<a class="header__logo" href="#">
+					<img class="img_scroll scroll-black" src="images/logo_hover.svg" alt="logo">
+				</a>
+				<div class="nav_wrapper">
+				<div class="search-section">
+					<form action="#" class="search-box" method="get">
+					<input placeholder="Поиск..." autocomplete="off" type="text">
+					<div class="search-close"></div>
+					</form>
+				</div>
+					<nav class="nav">
+						<ul class="nav__menu">
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="#">Каталог</a>
+							</li>
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="#">Аксессуары</a>
+							</li>
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="#">Услуги</a>
+							</li>
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="#">О компании</a>
+							</li>
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="news.html">Новости</a>
+							</li>
+							<li class="nav__menu__item">
+								<a class="nav__menu__item__link header-link black-header" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__lang">
+						<div class="header__lang__wrapper ">
+						<form>
+						<div class="__select" data-state="">
+							<div class="__select__title" data-default="Option 0">Ru</div>
+							<div class="__select__content">
+							<input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+							<label for="singleSelect0" class="__select__label">Ru</label>
+							<input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+							<label for="singleSelect0" class="__select__label">Ro</label>
+							<input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+							<label for="singleSelect1" class="__select__label lang-active">Ru</label>
+							</div>
+						</div>
+						</form>
+						</div>
+					</div>
+					<a class="header__cart" href="#">
+						<img class="hanger-hover hanger-black" src="images/hanger-hover.svg" alt="cart">
+					</a>
+					<div class="header__phone">
+						<div class="header__phone__text header-link black-header">Заказать звонок</div>
+						<a class="header__phone__link header-link black-header" href="tel:+37379577530">
+							+ (373) 79 577 530
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="header__mini">
+		<div class="hr-line"></div>
+								<ul class="header__mini__menu">
+												<li class="header__list__wrapper">
+													<ul class="header__mini__wrapper">
+													<li class="header__mini__menu__item">
+													<ul class="phone__hanger">
+														<li class="phone__hanger__item hanger__mini">
+															<a class="hanger__mini__item"><img src="images/hanger-hover.svg" alt="hanger"></a>
+														</li>
+														<li class="phone__hanger__item phone_mini"><a href="tel:+37379577530">+ (373) 79 577 530</a></li>
+														<div class="hr-line"></div>
+													</ul>
+												</li>
+												<ul class="header__mini-menu">
+												<li class="header__mini__menu__item">
+													<a href="#" class="header__mini__menu__item__link">Каталог</a>
+												</li>
+												<li class="header__mini__menu__item">
+													<a href="#require" class="header__mini__menu__item__link">Аксессуары</a>
+												</li>
+												<li class="header__mini__menu__item">
+													<a href="#require" class="header__mini__menu__item__link">Услуги</a>
+												</li>
+												<li class="header__mini__menu__item">
+													<a href="#" class="header__mini__menu__item__link">О компании</a>
+												</li>
+												<li class="header__mini__menu__item">
+													<a href="news.html" class="header__mini__menu__item__link">Новости</a>
+												</li>
+												<li class="header__mini__menu__item">
+													<a href="#" class="header__mini__menu__item__link">Контакты</a>
+												</li>
+												</ul>
+												<li class="lang_mini">
+													<a href="#">Ro</a>
+													<a href="#" class="lang_mini_active">Ru</a>
+													<div class="hr-line"></div>
+												</li>
+												<li class="social_mini">
+												<div class="search-section">
+													<form action="#" class="search-box search-mini" method="get">
+													<input placeholder="Поиск..." autocomplete="off" type="text">
+													<div class="search-close"></div>
+													</form>
+												</div>
+													<div class="social_mini_menu">
+														<a class="social_mini_item" href="#">facebook</a>
+														<a class="social_mini_item" href="#">instagram</a>
+													</div>
+												</li>
+													</ul>
+												</li>
+								</ul>
+				<div class="hamburger">
+								<span></span>
+								<span></span>
+								<span></span>
+				</div>
+				<a class="header__mini__logo" href="#">
+					<img class="mini-logo" src="images/logo_hover.svg" alt="logo mini">
+				</a>
+				<a class="header__mini__phone" href="tel:+37379577530">+ (373) 79 577 530</a>
+		</div>
+		<main id="page" class="other-page">
+			<div class="container">
+
+				<div class="container__wrapper">
+					<section class="crumbs">
+                        <div class="crumbs__wrapper">
+                            <div class="crumbs__wrapper__item">
+                                <a class="crumbs__wrapper__item__link" href="index.html">Главная</a>
+                            </div>
+                            <div class="crumbs__wrapper__item">
+                                <a class="crumbs__wrapper__item__link" href="collection.html">Категории</a>
+                            </div>
+                            
+                            <div class="crumbs__wrapper__item">
+                                <a class="crumbs__wrapper__item__link crumbs-active" href="category.html">Короткие платья</a>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                    </section>
+				</div>
+
+                <div class="container__wrapper">
+                    <section class="gallery">
+                            <h1 class="gallery__title">Короткие платья</h1>  
+                            <div class="gallery__wrapper category-wrapper">
+<div class="wrapper-gallery">
+<div class="masonry gallery-masonry">
+   <div class="item item-other">
+       <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/1.jpg"></a>
+           <a href="info.html" class="category-info">
+            <div class="images__title category-info-txt category-info-item">White Star 6</div>
+            <div class="line category-info-item"></div>
+            <div class="price category-info-item">1 500 €</div>
+           </a>
+    </div>
+    
+   <div class="item item-other">
+    <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/4.jpg"></a>
+    <a href="info.html" class="category-info">
+        <div class="images__title category-info-txt category-info-item">White Star 6</div>
+        <div class="line category-info-item"></div>
+        <div class="price category-info-item">1 500 €</div>
+       </a>
+   </div>
+    
+   <div class="item item-other">
+    <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/7.jpg"></a>
+    <a href="info.html" class="category-info">
+        <div class="images__title category-info-txt category-info-item">White Star 6</div>
+        <div class="line category-info-item"></div>
+        <div class="price category-info-item">1 500 €</div>
+       </a>
+     </div>
+    <!--
+   <div class="item item-other">
+    <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/10.jpg"></a>
+    <a href="info.html" class="category-info">
+            <div class="images__title category-info-txt category-info-item">White Star 6</div>
+            <div class="line category-info-item"></div>
+            <div class="price category-info-item">1 500 €</div>
+           </a>
+    </div>
+
+   <div class="item item-other">
+    <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/2.jpg"></a>
+    <a href="info.html" class="category-info">
+            <div class="images__title category-info-txt category-info-item">White Star 6</div>
+            <div class="line category-info-item"></div>
+            <div class="price category-info-item">1 500 €</div>
+           </a>
+   </div>
+
+    <div class="item item-other">
+     <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/5.jpg"></a>
+     <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+         </div>
+
+     <div class="item item-other">
+         <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/8.jpg"></a>
+         <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+         </div>
+
+    <div class="item item-other">
+     <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/11.jpg"></a>
+     <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+     </div>
+
+     <div class="item item-other">
+         <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/3(2).jpg"></a>
+     <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+    </div>
+
+     <div class="item item-other">
+         <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/6.jpg"></a>
+         <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+     </div>
+     <div class="item item-other">
+         <a class="hover-image-scale" href="info.html"><img class="hover-image-scale" src="images/collection/3(2).jpg"></a>
+         <a href="info.html" class="category-info">
+             <div class="images__title category-info-txt category-info-item">White Star 6</div>
+             <div class="line category-info-item"></div>
+             <div class="price category-info-item">1 500 €</div>
+            </a>
+     </div>-->
+    
+</div>
+</div>
+                            </div>
+                    </section>
+                </div>
+
+				<div class="container__wrapper">
+                    <div class="category__pagination">
+                        <a class="category__pagination__number news__pagination__active" href="#">1</a>
+                        <a class="category__pagination__number" href="#">2</a>
+                        <a class="category__pagination__number" href="#">3</a>
+                        <a href="#">
+                            <img src="images/pagination_arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__container">
+					<a class="footer__container__box" href="#">
+						<img class="footer__container__box__logo" src="images/logo.svg" alt="logo">
+					</a>
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Меню</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Каталог</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Аксессуары</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Услуги</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">О компании</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="news.html">Новости</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Информация</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Условия пользования</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Контакты</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link link_bold" href="tel:+37379577530">+ (373) 79 577 530</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link link_bold" href="tel:+37379577530">+ (373) 79 577 530</a>
+							</li>
+							<li class="footer__container__box__menu__item street">
+								<div class="footer__container__box__menu__item__link link_bold" href="#">ул. Алеко Руссо 1/2</div>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<div class="footer__container__box__menu__item__link" href="#">Пн-Вс, с 11:00 до 22:00
+								</div>
+							</li>
+							<li class="footer__container__box__menu__item mail">
+								<a class="footer__container__box__menu__item__link" href="mailto:natadiwedding@gmail.com">natadiwedding@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__container__box">
+						<div class="footer__container__box__link">
+							<a class="footer__container__box__link__social" href="#">facebook</a>
+							<a class="footer__container__box__link__social" href="#">instagram</a>
+						</div>
+						<div class="footer__container__box__link">
+							<div class="footer__container__box__link__txt">develop by
+							</div>
+							<div class="footer__container__box__link__copy">
+								<div class="footer__container__box__link__copy__title">&copy; Studio WebMaster, 2022</div>
+								<a class="footer__container__box__link__copy__img" href="#">
+									<img src="images/copyright.svg" alt="copyright">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="footer_mini">
+			<div class="container">
+
+				<div class="footer_mini_wrapper">
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Меню</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Каталог</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Аксессуары</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Услуги</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">О компании</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="news.html">Новости</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Контакты</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link link_bold" href="tel:+37379577530">+ (373) 79 577 530</a>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link link_bold" href="tel:+37379577530">+ (373) 79 577 530</a>
+							</li>
+							<li class="footer__container__box__menu__item street">
+								<div class="footer__container__box__menu__item__link link_bold" href="#">ул. Алеко Руссо 1/2</div>
+							</li>
+							<li class="footer__container__box__menu__item">
+								<div class="footer__container__box__menu__item__link" href="#">Пн-Вс, с 11:00 до 22:00
+								</div>
+							</li>
+							<li class="footer__container__box__menu__item mail">
+								<a class="footer__container__box__menu__item__link" href="mailto:natadiwedding@gmail.com">natadiwedding@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__container__box">
+						<h2 class="footer__container__box__title">Информация</h2>
+						<ul class="footer__container__box__menu">
+							<li class="footer__container__box__menu__item">
+								<a class="footer__container__box__menu__item__link" href="#">Условия пользования</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="footer__container">
+					<a class="footer__container__box" href="#">
+						<img class="footer__container__box__logo" src="images/logo.svg" alt="logo">
+					</a>
+					<div class="footer__container__box">
+						<div class="footer__container__box__link">
+							<a class="footer__container__box__link__social" href="#">facebook</a>
+							<a class="footer__container__box__link__social" href="#">instagram</a>
+						</div>
+						<div class="footer__container__box__link">
+							<div class="footer__container__box__link__txt">develop by
+							</div>
+							<div class="footer__container__box__link__copy">
+								<div class="footer__container__box__link__copy__title">&copy; Studio WebMaster, 2022</div>
+								<a class="footer__container__box__link__copy__img" href="#">
+									<img src="images/copyright.svg" alt="copyright">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
